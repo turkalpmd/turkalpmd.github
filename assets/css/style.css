@@ -198,6 +198,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @import url('http://fonts.cdnfonts.com/css/monteiro-lobato-2');
 
+body {
+  font-family: "Monteiro Lobato", sans-serif;
+}
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -214,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  font-family: 'Monteiro Lobato';
+  font-family: 'Monteiro Lobato', sans-serif;
   margin: 0 0 10px 0;
   font-size: 120px;
   font-weight: 700;
