@@ -193,6 +193,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/background.jpg") top center;
   background-size: cover;
+  font-family: 'Hero Polpen'; "sans-serif"
+    src: url('http://fonts.cdnfonts.com/css/hero-polpen'); 
 }
 #hero:before {
   content: "";
@@ -217,16 +219,16 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(8, 0, 0);
 }
 #hero p {
-  color: rgb(167, 20, 225);
+  color: rgb(240, 239, 175);
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", monospace;
+  font-family: 'Hero Polpen', sans-serif;
 }
 #hero p span {
-  color: rgb(120, 15, 225);
+  color: rgb(240, 239, 175);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #a12217;
+  border-bottom: 3px solid #F0EFAF;
 }
 @media (min-width: 1024px) {
   #hero {
