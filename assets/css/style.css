@@ -214,20 +214,21 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
+  font-family: 'Monteiro Lobato';
   margin: 0 0 10px 0;
-  font-size: 96px;
+  font-size: 120px;
   font-weight: 700;
   line-height: 120px;
-  color: rgb(240, 239, 175);
+  color: rgb(14, 92, 6);
 }
 #hero p {
-  color: rgb(240, 239, 175);
+  color: rgb(14, 92, 6);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: 'Monteiro Lobato', sans-serif;
 }
 #hero p span {
-  color: rgb(240, 239, 175);
+  color: rgb(133, 38, 215);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #F0EFAF;
