@@ -195,6 +195,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 
 }
+
+@import url('http://fonts.cdnfonts.com/css/monteiro-lobato-2');
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -234,6 +237,8 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
+
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 48px;
