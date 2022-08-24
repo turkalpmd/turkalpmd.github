@@ -214,19 +214,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(192, 94, 94);
+  color: rgb(8, 0, 0);
 }
 #hero p {
-  color: #fff;
+  color: rgb(167, 20, 225);
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", monospace;
 }
 #hero p span {
-  color: #fff;
+  color: rgb(120, 15, 225);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #dd2814;
+  border-bottom: 3px solid #a12217;
 }
 @media (min-width: 1024px) {
   #hero {
