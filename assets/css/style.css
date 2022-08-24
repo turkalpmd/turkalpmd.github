@@ -193,8 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/background.jpg") top center;
   background-size: cover;
-  font-family: 'Hero Polpen'; "sans-serif"
-    src: url('http://fonts.cdnfonts.com/css/hero-polpen'); 
+
 }
 #hero:before {
   content: "";
@@ -222,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(240, 239, 175);
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: 'Hero Polpen', sans-serif;
+  font-family: 'Monteiro Lobato', sans-serif;
 }
 #hero p span {
   color: rgb(240, 239, 175);
