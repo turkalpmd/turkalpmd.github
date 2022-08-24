@@ -222,16 +222,16 @@ body {
   font-size: 120px;
   font-weight: 700;
   line-height: 120px;
-  color: rgb(14, 92, 6);
+  color: rgb(165, 255, 155);
 }
 #hero p {
-  color: rgb(255, 0, 0);
+  color: rgb(230, 152, 152);
   margin-bottom: 50px;
   font-size: 60px;
   font-family: 'Monteiro Lobato', sans-serif;
 }
 #hero p span {
-  color: rgb(133, 38, 215);
+  color: rgb(205, 159, 246);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #F0EFAF;
