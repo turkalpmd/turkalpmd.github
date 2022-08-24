@@ -203,7 +203,7 @@ body {
 }
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(5, 13, 24, 0.391);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -225,9 +225,9 @@ body {
   color: rgb(14, 92, 6);
 }
 #hero p {
-  color: rgb(14, 92, 6);
+  color: rgb(255, 0, 0);
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 60px;
   font-family: 'Monteiro Lobato', sans-serif;
 }
 #hero p span {
