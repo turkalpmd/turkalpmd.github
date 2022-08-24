@@ -188,121 +188,69 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-// timing 
-$base-duration: 250ms;
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/background.jpg") top center;
+  background-size: cover;
 
-// Colors
-$color1: rgba(0, 90, 135, 0.8);
-
-$success: #2ecc71;
-$info: #3498db;
-$warning: #f1c40f;
-$danger: #e74c3c;
-
-$white: #fff;
-$black: #000;
-$gray: #ecf0f1;
-$whitesmoke: whitesmoke;
-$text: #555;
-
-// Breakpoints
-$sm: 20rem;
-$med: 48rem;
-$lg: 64rem;
-
-// sizes 
-$max-width: 1200px;
-$spacer: 1rem;
-
-// fonts / icons
-$roboto: 'Roboto', sans-serif;
-$robotoCondensed: 'Roboto Condensed', sans-serif;
-$awesome: "Font Awesome 5 Free";
-$awesomeWeight: 900;
-
-*, *:before, *:after {
-	box-sizing: border-box;
-	outline: none;
 }
 
-html {
-	font-family: $roboto;
-	font-size: 16px;
-	font-smooth: auto;
-	font-weight: 300;
-	line-height: 1.5;
-	color: #444;
+@import url('http://fonts.cdnfonts.com/css/monteiro-lobato-2');
+
+#hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 120px;
+  color: rgb(240, 239, 175);
+}
+#hero p {
+  color: rgb(240, 239, 175);
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: 'Monteiro Lobato', sans-serif;
+}
+#hero p span {
+  color: rgb(240, 239, 175);
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #F0EFAF;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
 }
 
-body {
-	position: relative;
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 48px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
-.hero {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 90vh;
-	background-color: $color1;
-	&:before {
-		position: absolute;
-		content: '';
-		width: 100%;
-		height: 100%;
-		background-image: url('https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-		background-position: center center;
-		background-repeat: none;
-		background-size: cover;
-		z-index: -1;
-	}
-	&-inner {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	&-content {
-		h1 {
-			color: $white;
-			font-size: 32px;
-			font-weight: 300;
-		}
-	}
-	&-scroller {
-		position: absolute;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		bottom: 0;
-		left: 50%;
-		width: 50px;
-		height: 50px;
-		background-color: $white;
-		border: none;
-		border-radius: 50%;
-		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-		color: $color1;
-		cursor: pointer;
-		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-		transform: translate(-50%,50%);
-		&:hover {
-			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-		}
-		i {
-			opacity: 0;
-			transform: translateY(-100%);
-			animation: swipeDown 3s ease infinite;
-		}
-	}
-}
-
-@keyframes swipeDown {
-	40%  { opacity: 1; transform: translateY(0%); }
-	50%  { opacity: 1; }
-	60%  { opacity: 1; transform: translateY(0%); }
-	100% { opacity: 0; transform: translateY(100%); }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
