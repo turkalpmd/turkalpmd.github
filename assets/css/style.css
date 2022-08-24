@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @import url('http://fonts.cdnfonts.com/css/monteiro-lobato-2');
 
-.herobody {
+body {
   font-family: "Monteiro Lobato", sans-serif;
 }
 #hero:before {
