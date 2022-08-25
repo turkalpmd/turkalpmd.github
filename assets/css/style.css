@@ -196,7 +196,9 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/background.jpg") top center;
   background-size: cover
 }
-
+/*--------------------------------------------------------------
+# Font
+--------------------------------------------------------------*/
 @font-face {
   font-family: 'Monteiro Lobato';
   font-style: normal;
