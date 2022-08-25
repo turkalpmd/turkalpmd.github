@@ -194,8 +194,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/background.jpg") top center;
-  background-size: cover;
+  background-size: cover
+}
 
+@font-face {
+  font-family: 'Monteiro Lobato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monteiro Lobato'), url('https://fonts.cdnfonts.com/s/56344/lobato.woff') format('woff');
 }
 
 #hero:before {
@@ -214,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Monteiro Lobato', sans-serif;
   margin: 0 0 10px 0;
   font-size: 60px;
   font-weight: 700;
@@ -225,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(205, 159, 246);
   margin-bottom: 50px;
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Monteiro Lobato', sans-serif;
 }
 #hero p span {
   color: rgb(205, 159, 246);
