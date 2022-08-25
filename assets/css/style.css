@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(205, 159, 246);
   padding-bottom: 2px;
   letter-spacing: 1px;
-  border-bottom: 1px solid #41e164;
+  border-bottom: 1px solid #d4ffdd;
 }
 @media (min-width: 1024px) {
   #hero {
