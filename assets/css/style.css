@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero p span {
   color: rgb(205, 159, 246);
-  padding-bottom: 6px;
+  padding-bottom: 2px;
   letter-spacing: 2px;
   border-bottom: 8px solid #41e164;
 }
