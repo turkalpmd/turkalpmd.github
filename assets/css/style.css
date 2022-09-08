@@ -206,6 +206,13 @@ h1, h2, h3, h4, h5, h6 {
   src: local('Monteiro Lobato'), url('https://fonts.cdnfonts.com/s/56344/lobato.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Hedgier';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hedgier'), url('https://fonts.cdnfonts.com/s/70632/Hedgier-jE3aM.woff') format('woff');
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.602);
@@ -222,7 +229,8 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  font-family: 'Monteiro Lobato', sans-serif;
+  /*font-family: 'Monteiro Lobato', sans-serif;*/
+  font-family: 'Hedgier', sans-serif;                                                
   margin: 0 0 10px 0;
   font-size: 60px;
   font-weight: 700;
@@ -233,7 +241,8 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(205, 159, 246);
   margin-bottom: 50px;
   font-size: 40px;
-  font-family: 'Monteiro Lobato', sans-serif;
+  /*font-family: 'Monteiro Lobato', sans-serif;*/
+  font-family: 'Hedgier', sans-serif;
 }
 #hero p span {
   color: rgb(205, 159, 246);
