@@ -202,12 +202,6 @@ h1, h2, h3, h4, h5, h6 {
 cdn bunun için güzel html için canonical bulmak gerekiyor ardından
 fonts.cdnfonts.com klasöründe css klasörü içinde @font_face codunu aldım
 --------------------------------------------------------------*/
-@font-face {
-  font-family: 'Monteiro Lobato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Monteiro Lobato'), url('https://fonts.cdnfonts.com/s/56344/lobato.woff') format('woff');
-}
 
 @font-face {
   font-family: 'Hedgier';
@@ -227,6 +221,7 @@ fonts.cdnfonts.com klasöründe css klasörü içinde @font_face codunu aldım
   z-index: 1;
 }
 #hero .hero-container {
+  font-family: 'Hedgier', sans-serif;   
   position: relative;
   z-index: 2;
   min-width: 300px;
@@ -245,9 +240,10 @@ fonts.cdnfonts.com klasöründe css klasörü içinde @font_face codunu aldım
   margin-bottom: 50px;
   font-size: 80px;
   /*font-family: 'Monteiro Lobato', sans-serif;*/
-  font-family: 'Hedgier', sans-serif;
+  font-family:'Hedgier', sans-serif;                                                
 }
 #hero p span {
+  font-family: 'Hedgier', sans-serif;   
   color: rgb(255, 255, 255);
   padding-bottom: 2px;
   letter-spacing: 1px;
@@ -262,10 +258,12 @@ fonts.cdnfonts.com klasöründe css klasörü içinde @font_face codunu aldım
 
 @media (max-width: 768px) {
   #hero h1 {
+    font-family: 'Hedgier', sans-serif;   
     font-size: 48px;
     line-height: 36px;
   }
   #hero h2 {
+    font-family: 'Hedgier', sans-serif;   
     font-size: 28px;
     line-height: 24px;
     margin-bottom: 30px;
